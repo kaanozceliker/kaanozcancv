@@ -15,7 +15,7 @@
    border-radius: 10px;
 }
 .single h2{
-   font-family: 'Montserrat', cursive;
+   font-family: 'Montserrat', sans-serif;
    display: flex;
    justify-content: space-between;
    margin-bottom: 10px;
@@ -44,7 +44,7 @@
 }
 .single p{
    padding: 5px;
-   font-family: 'Montserrat';
+   font-family: 'Montserrat', sans-serif;
 }
 .single .authorAndDate{
    width: 100%;
@@ -55,7 +55,7 @@
 .single .authorAndDate span{
    font-size: 1.3rem;
    font-weight: 700;
-   font-family: 'Montserrat Thin', cursive;
+   font-family: 'Ubuntu Mono', monospace, cursive;
 }
 .single .authorAndDate span:nth-child(2){
    font-family: 'Ubuntu Mono', monospace;

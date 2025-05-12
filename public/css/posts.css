@@ -22,7 +22,7 @@
   border-radius: 10px;
 }
 .post p {
-  font-family: "Poppins";
+  font-family: 'Montserrat', sans-serif;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -40,9 +40,9 @@
   padding: 0px 10px;
 }
 .post .authorAndDate span {
-  font-family: "Montserrat Thin", cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.2;
-  font-weight: 700;
+  font-weight: 400;
 }
 .post .authorAndDate span:nth-child(2) {
   font-family: "Ubuntu Mono", monospace;

@@ -7,7 +7,7 @@
   align-items: center;
 }
 .header h1 {
-  font-family: "Montserrat", cursive;
+  font-family:'Montserrat', sans-serif;
   position: absolute;
   font-size: 4rem;
   top: 40px;
@@ -16,7 +16,7 @@
     0px 0px 8px rgba(0, 0, 0, 0.5);
 }
 .header h2 {
-  font-family: "Montserrat Thin", cursive;
+  font-family: 'Montserrat', sans-serif;
   position: absolute;
   top: 120px;
   font-size: 2.6rem;
