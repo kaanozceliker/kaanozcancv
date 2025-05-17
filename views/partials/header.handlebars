@@ -1,6 +1,19 @@
-<header class="header target">
-   <img src="{{headerData.imgURL}}" alt="home">
-   <h1>{{headerData.title}}</h1>
-   <h2>{{headerData.subTitle}}</h2>
-</header>
+<header class="custom-header target">
+  <div class="image-side">
+    <img src="{{headerData.imgURL}}" alt="home">
+  </div>
+  <div class="text-side">
+    <div class="text-content">
+      <h1>{{headerData.title}}</h1>
+      <h2>{{headerData.subTitle}}</h2>
+      <p>The only way to achieve your dreams in various ways</p>
 
+      {{#if isHome}}
+        <a href="/about" class="about-button">About</a>
+      {{else}}
+        <a href="/" class="about-button">Home</a>
+      {{/if}}
+      
+    </div>
+  </div>
+</header>
