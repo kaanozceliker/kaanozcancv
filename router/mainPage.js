@@ -3,7 +3,7 @@ const router = express.Router()
 const data = {
   imgURL: '/img/background/home.jpg',
   title: 'Kaan Özcan',
-  subTitle: 'Real Estate-Management-Software'
+  subTitle: 'Real Estate-Software'
 }
 const { join } = require('path');
 const Contents = require(join(__dirname, '..', 'model', 'content.js'))
